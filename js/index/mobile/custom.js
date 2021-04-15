@@ -48,11 +48,11 @@ $(function () {
     });
 });
 
-$('.noble-gases').click(function () {
-    $('.footer').css('height', '1250px');
+// $('.noble-gases').click(function () {
+//     $('.footer').css('height', '1250px');
 
 
-})
+// })
 
 
 

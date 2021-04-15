@@ -265,13 +265,9 @@ margin-bottom: 5px;
 }
 
 .footer{
-  height: 600px;
-  background: var( --mainyellow);
-}
+  height: 500px;
 
-.footlonger1{
-  height: 700px;
-  background: red;
+  background: var( --mainyellow);
 }
 
 .logofooter{
@@ -282,7 +278,9 @@ margin-bottom: 5px;
  margin-left: -150px;
   margin: 0 auto;
   border-bottom: 1px solid var( --maindarkgray);
- width: 300px;
+  padding-top: 20px;
+  background-color: var( --mainyellow);
+ width: 100%;
 }
 
 .follow span{
@@ -315,11 +313,12 @@ margin-bottom: 5px;
 .wrap-drop {
 cursor:pointer;
 margin:0 auto;
-max-width:225px;
-padding:1rem;
+max-width:100%;
+padding: 10px 0px 10px 80px;
 position:relative;
-width:75%;
+width:100%;
 z-index:3;
+background-color: var(--mainyellow);
 }
 
 .wrap-drop::after {
@@ -333,10 +332,11 @@ position:absolute;
 right:1rem;
 top:50%;
 width:0;
+
 }
 
 .wrap-drop .drop {
-display:none;
+  display: none;
 left:0;
 list-style:none;
 margin-top:0;
@@ -347,10 +347,11 @@ position:absolute;
 right:0;
 top:100%;
 z-index:2;
+background-color: var(--mainyellow);
+padding: 10px 0px 0px 80px;
 }
 
 .wrap-drop .drop li a {
-
 display:block;
 padding:1rem;
 text-decoration:none;
@@ -370,7 +371,7 @@ pointer-events:auto;
 }
 
 .teamwork{
- margin-bottom: 200px;
+ margin-bottom: 180px;
  
 }
 
@@ -385,5 +386,25 @@ pointer-events:auto;
 .followus{
   margin-top: 15px;
 }
+
+.logoWeb{
+  display: none;
+} 
+
+.navbarbg2{
+  display: none;
+}
+
+.disableTitle{
+  display: none;
+}
+
+.footerBox1{
+  display: none;
+}
+
+
+
+
 
 }
