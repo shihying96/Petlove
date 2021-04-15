@@ -126,6 +126,7 @@ border-radius: 0 0 23px 23px;
  #menu{
    position: absolute;
    width: 300px;
+   height: 800px;
    margin: -100px 0 0 -50px;
    padding: 50px;
    padding-top: 90px;
@@ -222,7 +223,8 @@ margin-bottom: 5px;
 
 .product_wrapAll{
   display: flex;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
+  margin-top: -5px;
 }
 
 .product_text_wrap{
@@ -258,6 +260,10 @@ margin-bottom: 5px;
    width: 30px;
   height: 30px;
 }
+.icon-QA1{
+  width: 30px;
+  height: 30px;
+}
 
 .center{
   height: 200vh;
@@ -266,8 +272,8 @@ margin-bottom: 5px;
 
 .footer{
   height: 500px;
-
-  background: var( --mainyellow);
+background-color: var(--mainyellow);
+  /* background: var( --mainyellow); */
 }
 
 .logofooter{
@@ -277,7 +283,7 @@ margin-bottom: 5px;
 .follow{
  margin-left: -150px;
   margin: 0 auto;
-  border-bottom: 1px solid var( --maindarkgray);
+  height:50px;
   padding-top: 20px;
   background-color: var( --mainyellow);
  width: 100%;
@@ -314,7 +320,7 @@ margin-bottom: 5px;
 cursor:pointer;
 margin:0 auto;
 max-width:100%;
-padding: 10px 0px 10px 80px;
+padding: 10px 0px 10px 65px;
 position:relative;
 width:100%;
 z-index:3;
@@ -328,6 +334,7 @@ border-width:10px 10px 0;
 content:"";
 height:0;
 margin-top:-4px;
+margin-right: 20px;
 position:absolute;
 right:1rem;
 top:50%;
@@ -348,7 +355,7 @@ right:0;
 top:100%;
 z-index:2;
 background-color: var(--mainyellow);
-padding: 10px 0px 0px 80px;
+padding: 10px 0px 0px 50px;
 }
 
 .wrap-drop .drop li a {
@@ -371,12 +378,12 @@ pointer-events:auto;
 }
 
 .teamwork{
- margin-bottom: 180px;
+ margin-bottom: 175px;
  
 }
 
 .team{
-  margin-top: 15px;
+  /* margin-top: 15px; */
 }
 
 .buy{
@@ -384,7 +391,7 @@ pointer-events:auto;
 }
 
 .followus{
-  margin-top: 15px;
+  /* margin-top: 15px; */
 }
 
 .logoWeb{
@@ -403,7 +410,12 @@ pointer-events:auto;
   display: none;
 }
 
-
+.footerLine{
+  float: left;
+  margin-left: 42px;
+  width: 300px;
+  border-bottom: 1px solid  #70707059;
+}
 
 
 
