@@ -22,22 +22,133 @@ $('.product_wrapAll').mouseleave(function () {
 
 
 $('.product_wrapAll2').mouseenter(function () {
-    $('.disableBox2').css('margin-top', '60px').css('margin-left', '450px').css('transition', '0.8s');
+    $('.disableBox2').css('margin-top', '60px').css('margin-left', '455px').css('transition', '0.8s');
 
 })
 
 
 $('.product_wrapAll2').mouseleave(function () {
-    $('.disableBox2').css('margin-top', '-500px').css('margin-left', '450px').css('transition', '1.2s');
+    $('.disableBox2').css('margin-top', '-500px').css('margin-left', '455px').css('transition', '1.2s');
 
 })
 
 $('.disableBox2').mouseenter(function () {
-    $('.disableBox2').css('margin-top', '60px').css('margin-left', '450px').css('transition', '0.8s');
+    $('.disableBox2').css('margin-top', '60px').css('margin-left', '455px').css('transition', '0.8s');
 
 })
 
 
 $('.disableBox2').mouseleave(function () {
-    $('.disableBox2').css('margin-top', '-500px').css('margin-left', '450px').css('transition', '1.2s');
+    $('.disableBox2').css('margin-top', '-500px').css('margin-left', '455px').css('transition', '1.2s');
+})
+
+
+
+
+
+
+
+$('.product_wrapAll3').mouseenter(function () {
+    $('.disableBox3').css('margin-top', '60px').css('margin-left', '670px').css('transition', '0.8s');
+
+})
+
+
+$('.product_wrapAll3').mouseleave(function () {
+    $('.disableBox3').css('margin-top', '-500px').css('margin-left', '670px').css('transition', '1.2s');
+
+})
+
+$('.disableBox3').mouseenter(function () {
+    $('.disableBox3').css('margin-top', '60px').css('margin-left', '670px').css('transition', '0.8s');
+
+})
+
+
+$('.disableBox3').mouseleave(function () {
+    $('.disableBox3').css('margin-top', '-500px').css('margin-left', '670px').css('transition', '1.2s');
+})
+
+
+
+
+
+
+
+
+
+$('.product_wrapAll4').mouseenter(function () {
+    $('.disableBox4').css('margin-top', '60px').css('margin-left', '880px').css('transition', '0.8s');
+
+})
+
+
+$('.product_wrapAll4').mouseleave(function () {
+    $('.disableBox4').css('margin-top', '-500px').css('margin-left', '880px').css('transition', '1.2s');
+
+})
+
+$('.disableBox4').mouseenter(function () {
+    $('.disableBox4').css('margin-top', '60px').css('margin-left', '880px').css('transition', '0.8s');
+
+})
+
+
+$('.disableBox4').mouseleave(function () {
+    $('.disableBox4').css('margin-top', '-500px').css('margin-left', '880px').css('transition', '1.2s');
+})
+
+
+
+
+
+
+
+
+$('.product_wrapAll5').mouseenter(function () {
+    $('.disableBox5').css('margin-top', '60px').css('margin-left', '1085px').css('transition', '0.8s');
+
+})
+
+
+$('.product_wrapAll5').mouseleave(function () {
+    $('.disableBox5').css('margin-top', '-500px').css('margin-left', '1085px').css('transition', '1.2s');
+
+})
+
+$('.disableBox5').mouseenter(function () {
+    $('.disableBox5').css('margin-top', '60px').css('margin-left', '1085px').css('transition', '0.8s');
+
+})
+
+
+$('.disableBox5').mouseleave(function () {
+    $('.disableBox5').css('margin-top', '-500px').css('margin-left', '1085px').css('transition', '1.2s');
+})
+
+
+
+
+
+
+
+$('.product_wrapAll6').mouseenter(function () {
+    $('.disableBox6').css('margin-top', '60px').css('margin-left', '1280px').css('transition', '0.8s');
+
+})
+
+
+$('.product_wrapAll6').mouseleave(function () {
+    $('.disableBox6').css('margin-top', '-500px').css('margin-left', '1280px').css('transition', '1.2s');
+
+})
+
+$('.disableBox6').mouseenter(function () {
+    $('.disableBox6').css('margin-top', '60px').css('margin-left', '1280px').css('transition', '0.8s');
+
+})
+
+
+$('.disableBox5').mouseleave(function () {
+    $('.disableBox5').css('margin-top', '-500px').css('margin-left', '1280px').css('transition', '1.2s');
 })

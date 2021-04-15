@@ -353,16 +353,23 @@ a span{
 .icon-keyboard_arrow_down{ 
   width: 25px;
   height: 25px;
-  margin-top: 10px;
+  margin-top: 5px;
   margin-left: 5px;
-  color: var(--maindarkgray);
+  fill:#70707059;
 }
+
 
 .product_wrapAll{
 display: flex;
 height: 70px;
-width:100px;
+width:90px;
 }
+
+.product_wrapAll7{
+  display: flex;
+  height: 70px;
+  width:90px;
+  }
 
 
 
@@ -371,6 +378,30 @@ display: flex;
 height: 70px;
 width:100px;
 }
+
+.product_wrapAll3{
+  display: flex;
+  height: 70px;
+  width:100px;
+  }
+
+  .product_wrapAll4{
+    display: flex;
+    height: 70px;
+    width:100px;
+    }
+
+    .product_wrapAll5{
+      display: flex;
+      height: 70px;
+      width:100px;
+      }
+
+      .product_wrapAll6{
+        display: flex;
+        height: 70px;
+        width:100px;
+        }
 /* .dropdownbox1{
   width: 900px;
   height: 400px;
@@ -382,8 +413,23 @@ width:100px;
   margin-top: -400px;
   margin-left: 252px;
   width: 800px;
-  height: 350px;
+  height: 330px;
   display: flex;
+  border-radius:0 0 10px 10px;
+  justify-content: center; 
+  align-items: top;
+  padding-top: 60px;
+  background: rgb(255, 255, 255);
+  position: absolute;
+}
+
+.disableBox2{
+  margin-top: -400px;
+  margin-left: 455px;
+  width: 250px;
+  height: 310px;
+  display: flex;
+  border-radius:0 0 10px 10px;
   justify-content: center; 
   align-items: top;
   padding-top: 50px;
@@ -391,12 +437,56 @@ width:100px;
   position: absolute;
 }
 
-.disableBox2{
+.disableBox3{
   margin-top: -400px;
-  margin-left: 450px;
-  width: 800px;
-  height: 350px;
+  margin-left: 670px;
+  width: 250px;
+  height: 200px;
   display: flex;
+  border-radius:0 0 10px 10px;
+  justify-content: center; 
+  align-items: top;
+  padding-top: 50px;
+  background: rgb(255, 255, 255);
+  position: absolute;
+}
+
+.disableBox4{
+  margin-top: -400px;
+  margin-left: 880px;
+  width: 250px;
+  height: 200px;
+  display: flex;
+  border-radius:0 0 10px 10px;
+  justify-content: center; 
+  align-items: top;
+  padding-top: 50px;
+  background: rgb(255, 255, 255);
+  position: absolute;
+}
+
+
+.disableBox5{
+  margin-top: -400px;
+  margin-left:1085px;
+  width: 250px;
+  height: 200px;
+  display: flex;
+  border-radius:0 0 10px 10px;
+  justify-content: center; 
+  align-items: top;
+  padding-top: 50px;
+  background: rgb(255, 255, 255);
+  position: absolute;
+}
+
+.disableBox6{
+  margin-top: -400px;
+  margin-left:1280px;
+  width: 250px;
+  height: 160px;
+  display: flex;
+  border-radius:0 0 10px 10px;
   justify-content: center; 
   align-items: top;
   padding-top: 50px;
@@ -407,7 +497,7 @@ width:100px;
 .disableTitle{
   margin: 20px;
   margin-top: -20px;
-  font-size: 22px;
+  
  
  
 }
@@ -415,11 +505,12 @@ width:100px;
   display: block;
   text-align: center;
   width: 150px;
+  font-size: 20px ;
   border-bottom: 2px solid var(--mainblue);
    margin-bottom: 15px;
 }
 .disableContent{
-  font-size: 18px;
+  font-size: 16px;
   padding: 5px;
   text-align: center;
 }
@@ -432,7 +523,13 @@ z-index: 999;
 }
 
 
-
+.navBox3{
+  display: flex;
+  position: relative;
+  z-index: 1000;
+  
+  }
+  
 
 
 
@@ -457,7 +554,8 @@ width: 25px;
 }
 
 .webProductWrap{
-  width: 150px;
+  width: 180px;
+  display: flex;
 }
 
 .icon-booking{
@@ -502,4 +600,32 @@ width: 25px;
   display: none;
 }
 
+.navCheck{
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+
+
+.disableTextBlue{
+  color: var(--mainblue);
+  display: flex;
+  margin-left: 38px;
+}
+
+.icon-circle-down{
+  width: 20px;
+  height: 20px;
+  margin-left: 10px;
+  margin-top: 2px;
+  fill: var(--mainblue);
+}
+
+.icon-arrow-right-circle{
+  width: 20px;
+  height: 20px;
+  margin-left: 10px;
+  margin-top: 2px;
+  fill: var(--mainblue);
+}
 }
