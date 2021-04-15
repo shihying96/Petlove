@@ -57,4 +57,26 @@ $(function () {
 
 
 
+    // 到達一定位置跑出
+      $(window).scroll(function () {
+
+
+        if ($(this).scrollTop() > 800) {
+        $('.goTOP').css('transform', 'translateX(0px)')
+    } else {
+        $('.goTOP').css('transform', 'translateX(100px)')
+    }
+      })
+      // 點了跑上去TOP
+      $('.goTOP').click(function () {
+        $(' html,body ').animate(
+            {
+                scrollTop: 0,
+            },
+            700,
+        )
+    })
+
+
+
 
