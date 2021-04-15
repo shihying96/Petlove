@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+        integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <style>
+        body {
+            font: 1em Arial, sans-serif;
+        }
+
+        .accordion {
+            list-style: none;
+            border-top: 1px solid #ddd;
+            border-left: 1px solid #ddd;
+            border-right: 1px solid #ddd;
+            margin: .5rem 0 1rem 0;
+            padding-left: 0;
+            width: 30%;
+        }
+
+        .accordion-header {
+            background: #fff;
+            border-bottom: 1px solid #ddd;
+            cursor: pointer;
+            min-height: 3rem;
+            line-height: 3rem;
+            padding: 0 1rem;
+        }
+
+        .accordion-header:after {
+            font-weight: bold;
+            content: "+";
+            float: right;
+        }
+
+        .accordion-header.active:after {
+            font-weight: bold;
+            content: "-";
+            float: right;
+        }
+
+        .accordion-body {
+            display: none;
+            padding: 1rem;
+            border-bottom: 1px solid #ddd;
+        }
+    </style>
+</head>
+
+<body>
+    <ul class="accordion">
+        <li>
+            <div class="accordion-header">first</div>
+            <div class="accordion-body">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio impedit, eum possimus tempora sit
+                consequuntur, ad repudiandae. Obcaecati natus, quam odit eveniet at pariatur ratione, quidem similique
+                porro, cupiditate praesentium!
+            </div>
+        </li>
+        <li>
+            <div class="accordion-header">first</div>
+            <div class="accordion-body">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio impedit, eum possimus tempora sit
+                consequuntur, ad repudiandae. Obcaecati natus, quam odit eveniet at pariatur ratione, quidem similique
+                porro, cupiditate praesentium!
+            </div>
+        </li>
+        <li>
+            <div class="accordion-header">first</div>
+            <div class="accordion-body">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio impedit, eum possimus tempora sit
+                consequuntur, ad repudiandae. Obcaecati natus, quam odit eveniet at pariatur ratione, quidem similique
+                porro, cupiditate praesentium!
+            </div>
+        </li>
+    </ul>
+</body>
+
+</html>
+
+<script src="./js/jquery-3.5.1.slim.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+    integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+    crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+    integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+    crossorigin="anonymous"></script>
+
+<script>var header = $('.accordion-header');
+
+    function accordion() {
+        $(this).toggleClass('active');
+        $(this).next().slideToggle('normal');
+    }
+
+    header.click(accordion);
+</script>
