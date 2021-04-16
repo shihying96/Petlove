@@ -624,8 +624,19 @@ width: 25px;
 .icon-arrow-right-circle{
   width: 20px;
   height: 20px;
-  margin-left: 10px;
+  margin-left: 5px;
   margin-top: 2px;
   fill: var(--mainblue);
 }
+
+.bookWrap{
+  display: flex;
+}
+
+
+.bookingarrow{
+  margin-left: 2px;
+  margin-top: 20px;
+}
+
 }
