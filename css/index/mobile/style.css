@@ -7,7 +7,7 @@
 
 }
 
-@media (max-width: 375px) {
+@media (min-width: 375px)and (max-width: 1127px) {
 
   body {
     background-color: #F7F4EE;
@@ -127,7 +127,7 @@
   #menu {
     position: absolute;
     width: 300px;
-    height: 800px;
+    height: 1000px;
     margin: -100px 0 0 -50px;
     padding: 50px;
     padding-top: 90px;
@@ -192,7 +192,7 @@
   }
 
   .menuEngSubtitle {
-
+    color: #70707059;
     margin-top: -5px;
     font-size: 14px;
   }
@@ -224,13 +224,18 @@
 
   .product_wrapAll {
     display: flex;
-    margin-bottom: 30px;
-    margin-top: -5px;
+    margin-bottom: 40px;
+    margin-top: -10px;
   }
 
   .product_text_wrap {
     font-family: 'Noto Sans TC', sans-serif;
+    width: 150px;
     margin-left: 10px;
+  }
+
+  .product_text_wrap #text {
+    width: 100px;
   }
 
   .hot {
@@ -268,7 +273,7 @@
   }
 
   .center {
-    height: 200vh;
+    height: 300vh;
 
   }
 
@@ -385,17 +390,11 @@
 
   }
 
-  .team {
-    /* margin-top: 15px; */
-  }
 
   .buy {
     margin-top: 30px;
   }
 
-  .followus {
-    /* margin-top: 15px; */
-  }
 
   .logoWeb {
     display: none;
@@ -421,7 +420,97 @@
   }
 
 
-  .goTOP {}
+  #collapse1 {
+    margin-top: -20px;
+    margin-left: 40px;
+    margin-bottom: 30px;
+    font-size: 14px;
+  }
+
+  #collapse2 {
+    margin-top: -20px;
+    margin-left: 40px;
+    margin-bottom: 30px;
+    font-size: 14px;
+  }
+
+  #collapse3 {
+    margin-top: -20px;
+    margin-left: 40px;
+    margin-bottom: 30px;
+    font-size: 14px;
+  }
+
+
+  #collapse4 {
+    margin-top: -20px;
+    margin-left: 40px;
+    margin-bottom: 30px;
+    font-size: 14px;
+  }
+
+  #collapse5 {
+    margin-top: -20px;
+    margin-left: 40px;
+    margin-bottom: 30px;
+    font-size: 14px;
+  }
+
+  #collapse6 {
+    margin-top: -20px;
+    margin-left: 40px;
+    margin-bottom: 30px;
+    font-size: 14px;
+  }
+
+  #collapse7 {
+    margin-top: -20px;
+    margin-left: 40px;
+    margin-bottom: 30px;
+    font-size: 14px;
+  }
+
+  #gotop {
+    position: fixed;
+    z-index: 90;
+    right: 30px;
+    bottom: 31px;
+    display: none;
+    width: 50px;
+    height: 50px;
+    color: #fff;
+    background: var(--mainblue);
+    line-height: 50px;
+    border-radius: 50%;
+    transition: all 0.5s;
+    text-align: center;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  }
+
+  .fa fa-angle-up a {
+    vertical-align: none;
+  }
+
+  #gotop :hover {
+    background: var(--mainblue);
+  }
+
+  .icon-keyboard_arrow_down {
+    width: 25px;
+    height: 25px;
+    fill: #70707059;
+  }
+
+  .panel-body {
+    margin: 20px;
+  }
+
+
+  #gotop2 {
+    display: none !important;
+  }
+
+
 
 
 }

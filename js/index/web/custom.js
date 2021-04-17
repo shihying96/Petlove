@@ -152,3 +152,25 @@ $('.disableBox6').mouseenter(function () {
 $('.disableBox5').mouseleave(function () {
     $('.disableBox5').css('margin-top', '-500px').css('margin-left', '1280px').css('transition', '1.2s');
 })
+
+
+
+
+$(function () {
+    /* 按下GoTop按鈕時的事件 */
+    $('#gotop2').click(function () {
+        $('html,body').animate({
+            scrollTop: 0
+        }, 'slow'); /* 返回到最頂上 */
+        return false;
+    });
+
+    /* 偵測卷軸滑動時，往下滑超過400px就讓GoTop按鈕出現 */
+    $(window).scroll(function () {
+        if ($(this).scrollTop() > 100) {
+            $('#gotop2').fadeIn();
+        } else {
+            $('#gotop2').fadeOut();
+        }
+    });
+});
