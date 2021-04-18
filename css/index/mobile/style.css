@@ -273,7 +273,7 @@
   }
 
   .center {
-    height: 300vh;
+    height: 1000px;
 
   }
 
@@ -508,6 +508,19 @@
 
   #gotop2 {
     display: none !important;
+  }
+
+
+  .NavbarWebAll {
+    display: none;
+  }
+
+  .footer2 {
+    display: none;
+  }
+
+  .mobileWrap {
+    height: 81px;
   }
 
 

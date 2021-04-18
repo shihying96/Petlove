@@ -433,6 +433,7 @@
     padding-top: 60px;
     background: rgb(255, 255, 255);
     position: absolute;
+    z-index: 999;
   }
 
   .disableBox2 {
@@ -447,6 +448,7 @@
     padding-top: 50px;
     background: rgb(255, 255, 255);
     position: absolute;
+    z-index: 999;
   }
 
   .disableBox3 {
@@ -461,6 +463,7 @@
     padding-top: 50px;
     background: rgb(255, 255, 255);
     position: absolute;
+    z-index: 999;
   }
 
   .disableBox4 {
@@ -475,6 +478,7 @@
     padding-top: 50px;
     background: rgb(255, 255, 255);
     position: absolute;
+    z-index: 999;
   }
 
 
@@ -490,6 +494,7 @@
     padding-top: 50px;
     background: rgb(255, 255, 255);
     position: absolute;
+    z-index: 999;
   }
 
   .disableBox6 {
@@ -686,6 +691,10 @@
     width: 25px;
     height: 25px;
     margin-right: 5px;
+  }
+
+  #gotop {
+    display: none !important;
   }
 
   .goTOP2 {
