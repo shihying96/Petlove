@@ -272,9 +272,128 @@ width: 100%;
 }
 
 
+.flickity-button-icon{
+    display: none;
+}
+
+.flickity-button{
+    display: none;
+}
 
 
+.flickity-page-dots .dot{
+    display:none !important;
+}
+.carousel-cell:before{
+    display: none;
+}
+.carousel{
+  
+    margin-top: 30px;
 
+}
+.carousel-cell{
+    background: #fff ;
+}
+
+.carousel-cell_wrap{
+    display: flex;
+}
+
+.star2{
+    width: 10px;
+    height: 10px;
+    fill: var(--mainyellow);
+   
+}
+
+.n_carousel_avatar1{
+    width: 40px;
+    height: 40px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.n_carousel_avatar1 img{
+    width: 100%;
+}
+.n_star2_wrap{
+    height: 30px;
+    margin-left: 10px;
+}
+.n_carousel_name{
+    font-size: 10px;
+   
+    margin-top: 20px;
+}
+.n_carousel_comment{
+    height: 100px;
+    width: 200px;
+    margin-top: 50px;
+    margin-left: 25px;
+    font-size: 12px;
+}
+
+.n_reservationbox{
+    display: flex;
+    width: 270px;
+    height: 140px;
+    background: #fff;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.walkdog-Reservation-1{
+    width: 60px;
+    margin-left: 30px;
+}
+
+.walkdog-Reservation-2{
+    width: 70px;
+    margin-left: 30px;
+}
+
+.walkdog-Reservation-3{
+    width: 80px;
+    margin-left: 30px;
+}
+.walkdog-Reservation-4{
+    width: 70px;
+    margin-left: 30px;
+}
+
+.walkdog-Reservation-5{
+    width: 70px;
+    margin-left: 30px;
+}
+.walkdog-Reservation-6{
+    width: 80px;
+    margin-left: 30px;
+}
+.n_reservationText{
+    height: 30px;
+    margin: 0 auto;
+    margin-top: 60px;
+    font-size: 14px;
+    letter-spacing: 3px;
+}
+
+
+.n_booking_button{
+   
+    height: 35px;
+    width: 220px;
+    background: var(--mainblue);
+    border-radius: 18px;
+    font-size: 16px;
+    color: #fff;
+    margin: 0 auto;
+    text-align: center;
+    letter-spacing: 3px;
+    line-height: 35px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
 
 }
 
