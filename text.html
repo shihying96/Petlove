@@ -1,0 +1,145 @@
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Owl-carousel Cards Slider | CodingNepal</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+
+        body {
+            background: #000;
+        }
+
+        .n_slider {
+            width: 1600px;
+            display: flex;
+
+        }
+
+        .n_slider .n_card {
+            flex: 7;
+            margin: 0 10px;
+            background: rgb(255, 255, 255);
+            border-radius: 10px;
+
+        }
+
+        .n_slider .n_card .n_card_box {
+            height: 450px;
+            width: 100%;
+        }
+
+        .n_slider_img {
+            width: 80px;
+            height: 80px;
+            margin-top: 20px;
+            margin-left: 20px;
+
+        }
+
+        .n_slider_wrap {
+            display: flex;
+            width: 400px;
+        }
+
+        .n_card_name {
+            margin-top: 20px;
+            margin-left: 20px;
+            width: 100px;
+            font-size: 20px;
+        }
+
+        .star2 {
+            width: 14px;
+            height: 14px;
+        }
+
+        p {
+            color: #fff;
+            font-size: 24px;
+        }
+    </style>
+</head>
+
+<body>
+    <p>sDFsdf</p>
+    <div class="n_slider owl-carousel">
+        <div class="n_card">
+            <div class="n_card_box">
+                <div class="n_slider_wrap">
+                    <div class="n_slider_img"><img src="./images/walkingservice/content/WalkingServiceComment01.png"
+                            alt="">
+                    </div>
+                    <div class="n_card_name">一尾
+                        <div class="n_card_star"><svg class="star2">
+                                <use xlink:href="./images/index/icomoon/symbol-defs.svg#star2"></use>
+                            </svg>
+                            <svg class="star2">
+                                <use xlink:href="./images/index/icomoon/symbol-defs.svg#star2"></use>
+                            </svg>
+                            <svg class="star2">
+                                <use xlink:href="./images/index/icomoon/symbol-defs.svg#star2"></use>
+                            </svg>
+                            <svg class="star2">
+                                <use xlink:href="./images/index/icomoon/symbol-defs.svg#star2"></use>
+                            </svg>
+                            <svg class="star2">
+                                <use xlink:href="./images/index/icomoon/symbol-defs.svg#star2"></use>
+                            </svg>
+                        </div>
+                        <div class="n_card_comment">第三次請Evonne幫忙了～ 狗狗看起來都蠻開心的</div>
+
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+        <div class="n_card">
+            <div class="n_card_box">
+
+            </div>
+
+        </div>
+        <div class="n_card">
+            <div class="n_card_box">
+
+            </div>
+
+        </div>
+        <div class="n_card">
+            <div class="n_card_box">
+
+            </div>
+
+        </div>
+        <div class="n_card">
+            <div class="n_card_box">
+
+            </div>
+
+        </div>
+        <div class="n_card">
+            <div class="n_card_box">
+
+            </div>
+
+        </div>
+    </div>
+    <script>
+        $(".n_slider").owlCarousel({
+            // loop: true,
+            // autoplay: true,
+            // autoplayTimeout: 5000, //2000ms = 2s;
+            // autoplayHoverPause: true,
+        });
+    </script>
+</body>
+
+</html>

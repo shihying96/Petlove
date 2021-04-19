@@ -40,11 +40,20 @@
         letter-spacing: 0.8px;
    
     }
+    .n_WalkTheDogSubTitle2 {
+        text-align: center;
+        margin-right: -10px;
+        font-size: 12px;
+        color: var(--mainblue);
+        letter-spacing: 0.8px;
+   
+    }
+
 
     .n_WalkTheDogTitle1_line{
       width: 50px;
       height: 1px;
-      margin-top: 55px;
+      margin-top: 65px;
       background: var(--mainblue);
       margin-right: 10px;
     }
@@ -58,7 +67,7 @@
     .n_WalkTheDogTitle1_line2{
     width: 50px;
     height: 1px;
-    margin-top: 85px;
+    margin-top: 95px;
     margin-left: 25px;
     background: var(--mainblue);
 
@@ -171,7 +180,7 @@
     line-height: 22px;
     letter-spacing: 3px;
     width: fit-content;
-    margin-left: 50px;
+    margin-left: 53px;
    
 }
 
@@ -184,20 +193,112 @@
     font-size: 14px;
     line-height: 22px;
     letter-spacing: 1.2px;
+    margin: 0 auto;
     margin-top: 10px;
-    margin-left: 50px;
+    
 }
 
 .n_WalkTheDogIntroWrap{
     margin-top: 50px;
 }
 
+.n_WalkTheDogChargingTitle{
+    font-size: 14px;
+    margin: 0 auto;
+    width: fit-content;
+    color: var(--mainblue);
+}
+
+.n_WalkTheDogChargingIMG{
+    width: 140px;
+    margin: 0 auto;
+
+}
+
+.n_WalkTheDogChargingIMG img{
+width: 100%;
+
+}
+
+.n_WalkTheDogChargingBox{
+    margin-top: 30px;
+
+}
 
 
+.n_WalkTheDogChargingIMG2{
+    width: 140px;
+    margin: 0 auto;
 
+}
 
+.n_WalkTheDogChargingIMG2 img{
+width: 100%;
 
+}
 
+.n_WalkTheDogChargingText{
+    padding-top: 30px;
+    width: 270px;
+    color: var(--maindarkgray);
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 1.2px;
+    margin: 0 auto;
+}
+
+ @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+
+      
+
+        .n_slider {
+            width: 1600px;
+            display: flex;
+
+        }
+
+        .n_slider .n_card {
+            flex: 7;
+            margin: 0 10px;
+            background: rgb(255, 255, 255);
+            border-radius: 10px;
+
+        }
+
+        .n_slider .n_card .n_card_box {
+            height: 450px;
+            width: 100%;
+        }
+
+        .n_slider_img {
+            width: 80px;
+            height: 80px;
+            margin-top: 20px;
+            margin-left: 20px;
+
+        }
+
+        .n_slider_wrap {
+            display: flex;
+            width: 400px;
+        }
+
+        .n_card_name {
+            margin-top: 20px;
+            margin-left: 20px;
+            width: 100px;
+            font-size: 20px;
+        }
+
+        .star2 {
+            width: 14px;
+            height: 14px;
+        }
+
+        p {
+            color: #fff;
+            font-size: 24px;
+        }
 
 
 
